@@ -1,0 +1,163 @@
+#root {
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* App.css */
+
+/* Style for the table container */
+.container {
+
+  width: 80%;
+  border-collapse: collapse; /* Merge cell borders */
+  padding-top: 100px;
+ margin-left: 150px;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+/* Style for table data cells */
+td {
+  padding:50px;
+  margin: 50px;
+  border: 1px solid #fffcfc;
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+  background-color: #f5f5f5;
+  padding-left: 1000px;
+}
+
+/* Style for the "Add" button */
+.add {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+/* Style for the "Update" and "Delete" buttons */
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Style for the entire table section */
+.table {
+  padding: 100px;
+}
+
+div{
+  padding-bottom: 10px;
+}
+
+/* Add more styles as needed */
+.form{
+  display: grid !important;
+  grid-template-columns: repeat(2); /* Create three equal-width columns */
+  gap: 10px;
+ 
+  background-color: #abf4ff;
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.name{
+
+  display: inline-flex; /* Display elements next to each other */
+  margin-right: 10px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 100px;
+}
+
+.email{
+  margin-bottom: 10px; /* Display elements next to each other */
+  margin-right: 10px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 100px;
+}
+
+.address{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create three equal-width columns */
+  gap: 10px; /* Add a gap between grid items */
+ 
+}
+
+.addi{
+  margin-right: 10px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 200px;
+}
+
+.phn{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 200px;
+}
+.web{
+   margin-bottom: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 200px;
+}
+.company{
+
+  margin-right: 10px;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 200px;
+}
+

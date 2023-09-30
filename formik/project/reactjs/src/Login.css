@@ -1,0 +1,75 @@
+/* Login.css */
+
+/* Style the container */
+.algin{
+    display: flex;
+ 
+}
+.formm {
+    width: 300px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 100px;
+    margin-top: 100px;
+    border: 1px solid #000000;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+
+  }
+  
+  /* Style labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color:rgb(46, 129, 255);
+    font-weight: bolder;
+  }
+
+
+  h1{
+    color:rgb(46, 129, 255);
+    font-weight: bolder;
+
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+  }
+  
+  /* Style error messages */
+.errorr {
+    color: red;
+ 
+  }
+  
+  /* Style the login button */
+  .buttonn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+ 
+  select {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ffe1e1;
+    border-radius: 10px;
+    align-items: center;
+  }
+  

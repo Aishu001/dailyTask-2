@@ -1,0 +1,85 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "author": " J. K. Rowling",
+      "ISBN_number": "1338878921",
+      "publication_date": "26 June 1997"
+    },
+    {
+      "id": 2,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "ISBN_number": "1338878922",
+      "publication_date": "16 October 2018"
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": " F. Scott Fitzgerald",
+      "ISBN_number": "1338878924",
+      "publication_date": "16 October 2020"
+    },
+    {
+      "id": 4,
+      "title": "he Catcher in the Rye ",
+      "author": "J. D. Salinger",
+      "ISBN_number": "13388789244",
+      "publication_date": "1945–46"
+    },
+    {
+      "id": 5,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "ISBN_number": "1338878921234",
+      "publication_date": "War and Peace"
+    },
+    {
+      "title": "k.t . saaaaa",
+      "author": "kalkiaaa",
+      "ISBN_number": "999",
+      "publication_date": "2023-09-06",
+      "id": 6
+    },
+    {
+      "title": "sjss",
+      "author": "jaa",
+      "ISBN_number": "11222",
+      "publication_date": "2023-09-28",
+      "id": 7
+    }
+  ],
+  "author": [
+    {
+      "id": 1,
+      "name": "J. K. Rowling",
+      "birth_date": "31 July 1965",
+      "biography": "Joanne Rowling ( born 31 July 1965), best known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote Harry Potter, a seven-volume fantasy series published from 1997 to 2007. The series has sold over 600 million copies, been translated into 84 languages, and spawned a global media franchise including films and video games. The Casual Vacancy (2012) was her first novel for adults. She writes Cormoran Strike, an ongoing crime fiction series, under the alias Robert Galbraith."
+    },
+    {
+      "id": 2,
+      "name": "James Clear",
+      "birth_date": "James Clear",
+      "biography": "James Clear is a writer and speaker focused on habits, decision making, and continuous improvement. He is the author of the #1 New York Times bestseller, Atomic Habits. The book has sold over 5 million copies worldwide and has been translated into more than 50 languages."
+    },
+    {
+      "id": 3,
+      "name": "F. Scott Fitzgeral",
+      "birth_date": "24 September 1896",
+      "biography": "Francis Scott Key Fitzgerald was an American novelist, essayist, and short story writer. He is best known for his novels depicting the flamboyance and excess of the Jazz Age—a term he popularized in his short story collection Tales of the Jazz Age."
+    },
+    {
+      "id": 4,
+      "name": "Jerome David Salinger",
+      "birth_date": " 1 January 1919",
+      "biography": "Jerome David Salinger was an American author best known for his 1951 novel The Catcher in the Rye. Salinger published several short stories in Story magazine in 1940, before serving in World War II."
+    },
+    {
+      "id": 5,
+      "name": "Leo Tolstoy",
+      "birth_date": "9 September 1828",
+      "biography": "Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer regarded as one of the greatest authors of all time. He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909."
+    }
+  ]
+}

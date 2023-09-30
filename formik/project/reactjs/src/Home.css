@@ -1,0 +1,61 @@
+/* Home.css */
+
+
+
+  
+
+
+  .hea{
+    background-image: linear-gradient(to right, #00f0f8, #f45959);
+    -webkit-background-clip: text; /* Apply the gradient to the text */
+    color: transparent; /* Make the text transparent */
+    font-size: 36px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    text-align: center; /* Center the text */
+    margin-left: 10px;
+  }
+  
+  .cardd {
+   
+    margin:  10px; /* Adjust the spacing between buttons as needed */
+    padding: 10px 20px; /* Adjust button padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+   display: inline;
+   justify-content: center;
+   margin-top: 100px;
+  
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    /* Remove underlines from links */
+  }
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: 10px solid  rgba(242, 242, 242, 0.574);
+    background-color: rgba(242, 242, 242, 0.574);
+    gap: 10px;
+    margin-left: 100px;
+
+}
+
+
+.sub{
+  display: inline;
+ font-weight: bolder;
+ margin-bottom:-8%;
+  margin: 95px;
+  text-align: center;
+  background-image: linear-gradient(to right, #00f0f8, #f45959);
+  -webkit-background-clip: text; /* Apply the gradient to the text */
+  color: transparent; /* Make the text transparent */
+  font-size: 26px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  text-align: center; /* Center the text */
+
+}
+
+  
