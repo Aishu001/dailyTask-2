@@ -11,21 +11,11 @@ import Badge from 'react-bootstrap/Badge';
 function Home() {
   return (
     <>
-    <h1 className='tracking-in-contract-bck-top'>
-        Smart Phones 
-      </h1>
-     <Image className='scale-up-center' src="OnePlus-11-1-1024x668.jpeg" fluid />
-    <Navbar expand="lg" className="fixed-top">
-        <Container>
-          
-            <Nav className="nav-link"> 
-              <Link to="/products" className="nav-link">
-                Products
-              </Link>
-            </Nav>
-          
-        </Container>
-      </Navbar>
+    <div className='home-container'>
+    <Link to="/products" ><button className='homeButton'> Click here to Purchase !!!</button></Link>
+      <img src="oneplus9pro-colours.webp" alt=""  className='imageHome' />
+    </div>
+   
     </>
   )
 }

@@ -11,7 +11,7 @@ const Data = {
             "stock": 94,
             "brand": "Apple",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+            "thumbnail": "iPhone9.jpeg",
         
         },
         {
@@ -24,7 +24,7 @@ const Data = {
             "stock": 34,
             "brand": "Apple",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+            "thumbnail": "IphoneX.jpeg",
          
         },{
             "id": 3,
@@ -36,10 +36,8 @@ const Data = {
             "stock": 36,
             "brand": "Samsung",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-            "images": [
-                "https://i.dummyjson.com/data/products/3/1.jpg"
-            ]
+            "thumbnail": "SamsungUniverse9.jpeg",
+            
         },
         {
             "id": 4,
@@ -51,14 +49,8 @@ const Data = {
             "stock": 123,
             "brand": "OPPO",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-            "images": [
-                "https://i.dummyjson.com/data/products/4/1.jpg",
-                "https://i.dummyjson.com/data/products/4/2.jpg",
-                "https://i.dummyjson.com/data/products/4/3.jpg",
-                "https://i.dummyjson.com/data/products/4/4.jpg",
-                "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-            ]
+            "thumbnail": "OPPOF19 .jpeg",
+           
         },
         {
             "id": 5,
@@ -70,12 +62,8 @@ const Data = {
             "stock": 32,
             "brand": "Huawei",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-            "images": [
-                "https://i.dummyjson.com/data/products/5/1.jpg",
-                "https://i.dummyjson.com/data/products/5/2.jpg",
-                "https://i.dummyjson.com/data/products/5/3.jpg"
-            ]
+            "thumbnail": "HuaweiP30.jpeg",
+           
         }
     ]
 }

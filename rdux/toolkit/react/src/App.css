@@ -1,11 +1,9 @@
-#root {
-  max-width: 1280px;
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin-top: 200px;
 }
 
-/* Adjust the card layout to display three cards per row */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -13,84 +11,95 @@
 }
 
 .col-md-4 {
-  flex: 0 0 calc(50% - 1rem); /* Adjust the width to fit two cards */
-  max-width: calc(50% - 1rem); /* Adjust the width to fit two cards */
-  margin-bottom: 2rem;
+  flex: 0 0 calc(33.333% - 20px);
+  margin-bottom: 20px;
 }
 
-
-.img{
-  
-  width: 300px;
-  height: 300px;
-  border: 10px;
-  border-radius: 10px;
-  margin: 20px;
-  
+.cardd {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
 }
 
-.cardd{
-  background:#ffffff6a;
- 
+.cardd:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.cardd:hover{
-  background:#f4dcfff3;
+.img {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
 }
 
-
-.description{
-  text-align: left;
-  margin: 0;
-  padding: 10px;
-  color: rgb(51, 51, 51);
-  font-weight: bolder;
- font-size: larger;
-}
-
-.title{
-  color: rgb(51, 51, 51);
-  font-weight: bolder;
- font-size: 25px;
- padding-top: 20px ;
- padding-bottom: 10px;
-}
-
-
-
-.btnn{
- 
-  background-color: rgb(3, 142, 255);
-  color: rgb(255, 255, 255);
-  font-weight: bolder;
- font-size: larger;
- padding : 20px;
- margin-bottom: 20px;
-}
-
-.total {
-  display: flex;
-  flex-direction: column; /* Arrange content in a column */
-  align-items: flex-end; /* Align items to the right side horizontally */
-  border: 2px solid rgb(228, 228, 228);
-  border-radius: 5px;
+.title {
   font-size: 20px;
-  font-weight: bold;
-  margin-left: 1000px;
-  margin-top: 100px;
-
-  
-}
-
-.total button {
-  margin-top: 10px;
-  width : 200px ;
-  height :  50px ;
-  margin-bottom: 20px; 
-  margin-right: 20px; 
-  background-color: rgb(253, 226, 130);
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 10px;
   font-weight: bolder;
-  color: black;/* Add spacing between the text and the button */
+}
+.price{
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 10px;
+  font-weight: bolder;
 }
 
+.total{
+  float: right;
+  text-align: right;
+  margin-right: 300px;
+  padding-right: 10px;
+  margin-top: 10px;
+
+}
+#pay{
+  background-color: #ff8f3a;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bolder;
+ 
+}
+#pay:hover {
+  background-color: #e5ff3f;
+  color: #000000;
+}
+
+#number{
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.cartBtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.cartBtn:hover {
+  background-color: #0056b3;
+}
 

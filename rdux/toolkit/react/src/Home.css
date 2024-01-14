@@ -1,42 +1,81 @@
-/* Navbar.css */
-.fixed-top {
-    background-color: #3f6e7ef4; /* Set your desired background color */
-    color: white; /* Set your desired text color */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+.home-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-/* Style the Navbar contents */
-.navbar {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0; /* Add padding for better spacing */
+.imageHome {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
 }
 
-/* Style the Navbar Brand (SmartPhones) */
-.navbar-brand {
-    margin-right: 20px; /* Add some spacing between Brand and Nav links */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.homeButton {
+  position: absolute;
+  z-index: 1; /* Ensure the button is above the image */
+  /* Add any additional styling for your button */
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  margin-right:200px;
+  cursor: pointer;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-size: 26px;
+  animation: blink 1s infinite, changeColors 1s infinite alternate;
+}
+@keyframes changeColors {
+  0% {
+    background-color: #ff0000; /* Red */
+    color: #fff; /* White */
+  }
+  25% {
+    background-color: #00ff00; /* Green */
+    color: #000; /* Black */
+  }
+  50% {
+    background-color: #0000ff; /* Blue */
+    color: #fff; /* White */
+  }
+  75% {
+    background-color: #ffff00; /* Yellow */
+    color: #000; /* Black */
+  }
+  100% {
+    background-color: #ff00ff; /* Purple */
+    color: #fff; /* White */
+  }
 }
 
-/* Style the Nav links */
-.nav-link {
-    margin-right: 10px; /* Add some spacing between Nav links */
-    margin: 20px;
-    color: aliceblue;
-   
-    font-weight: bolder;
-   font-size: 25px;
-    
-}
 
-.scale-up-center{
+.imageHome{
     -webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            width: 1500px;
-            height: 600px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
 }
 
 @-webkit-keyframes scale-up-center {

@@ -25,8 +25,8 @@ function ShoppingCart() {
   return (
     <>
     <div className="total">
-      <p>Cart Total: ${cartTotal.toFixed(2)}</p>
-      <button id="pay" >Pay Now</button>
+      <p id="number">Cart Total: ${cartTotal.toFixed(2)}</p>
+      <button id="pay" >pay now</button>
     </div>
     <br />
     <br />
@@ -40,9 +40,9 @@ function ShoppingCart() {
               <Card.Body>
                 <Card.Title className='title'>{product.title}</Card.Title>
                 <Card.Text className='description'>{product.description}</Card.Text>
-                <Card.Text className='title'>${product.price}</Card.Text>
+                <Card.Text className='price'>${product.price}.00</Card.Text>
                 {product.quantity === 0 ? (
-                  <Button className='btnn'
+                  <Button className='cartBtn'
                     variant="primary"
                     onClick={() => {
                       dispatch(increment({ productId: product.id }));
@@ -52,9 +52,9 @@ function ShoppingCart() {
                   </Button>
                 ) : (
                   <div>
-                    <Button className='btnn' onClick={() => dispatch(increment({ productId: product.id }))}>+</Button>
+                    <Button className='cartBtn' onClick={() => dispatch(increment({ productId: product.id }))}>+</Button>
                     <span className='description'>{product.quantity}</span>
-                    <Button  className='btnn' onClick={() => dispatch(decrement({ productID: product.id }))}>-</Button>
+                    <Button  className='cartBtn' onClick={() => dispatch(decrement({ productID: product.id }))}>-</Button>
                   </div>
                 )}
               </Card.Body>
